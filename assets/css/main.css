@@ -1664,3 +1664,26 @@ body {
 .project-item a:hover {
   color: #007bff; /* Change color on hover, adjust as needed */
 }
+
+/* ------------------------ */
+
+/* Media query adjustments for mobile */
+@media (max-width: 600px) {
+  .projects-container {
+      flex-direction: column;
+  }
+  .project-item {
+      flex-basis: 100%; /* Takes full width of the screen */
+      margin: 0px; /* Reduced margin for more space */
+      min-height: 200px; /* Adjust minimum height for better visibility */
+  }
+  .project-image img {
+      max-width: 120px; /* Adjust max height for mobile */
+  }
+  .project-description {
+      font-size: 0.85rem; /* Slightly smaller font on small screens */
+      padding: 3px; /* Adjust padding */
+  }
+}
+
+
