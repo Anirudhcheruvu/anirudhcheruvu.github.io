@@ -1613,3 +1613,54 @@ body {
   -webkit-transition-delay: 0.16s;
   transition-delay: 0.16s;
 }
+/* ------------------------- */
+.projects-container {
+  display: flex; /* Flexbox for side-by-side layout */
+  justify-content: center; /* Center the items horizontally */
+  gap: 40px; /* Space between the project items */
+  padding: 20px; /* Padding around the container */
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.project-item {
+  padding: 20px; /* Padding inside each project item */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  text-align: center; /* Center align the content */
+  max-width: 300px; /* Max width for each project item */
+  transition: transform 0.3s; /* Smooth hover effect */
+}
+
+.project-item:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.project-image img {
+  max-width: 100%; /* Responsive image size */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Rounded corners for images */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.project-title {
+  margin: 10px 0; /* Margin around the title */
+  font-weight: bold; /* Bold text */
+}
+
+.project-description {
+  margin-bottom: 0; /* Ensures no extra margin */
+}
+
+/* Link Styles */
+.project-item a {
+  color: inherit; /* Inherit the color from the parent element */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.project-item a:visited {
+  color: inherit; /* Ensure visited links have the same color */
+}
+
+.project-item a:hover {
+  color: #007bff; /* Change color on hover, adjust as needed */
+}
