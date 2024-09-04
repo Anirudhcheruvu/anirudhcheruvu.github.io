@@ -32,6 +32,30 @@
 		.project_img:hover {
 			transform: scale(1.15);
 		}
+
+		.experience {
+			padding: 20px;
+			background-color: #e8e8e8;
+			/* Light grey background */
+			border-radius: 5px;
+			margin: 20px;
+			color: #333;
+			/* Dark text color for better readability */
+		}
+
+		.experience h2,
+		.experience h3 {
+			color: #222;
+			/* Darker shade for headings */
+			margin-bottom: 15px;
+		}
+
+		.experience ul {
+			list-style-type: disc;
+			margin-left: 20px;
+			color: #333;
+			/* Ensure list text is also dark */
+		}
 	</style>
 
 	<title>Anirudh Cheruvu</title>
@@ -79,7 +103,7 @@
 							<img height="50px" width="50px" src="assets/img/target.png" alt="Global" />
 							<p>Anirudh Cheruvu</p>
 						</a>
-						<button class="header--cta cta">Hire Me</button>
+						<!-- <button class="header--cta cta">Hire Me</button> -->
 						<div class="header--nav-toggle">
 							<span></span>
 						</div>
@@ -87,8 +111,9 @@
 					<nav class="l-side-nav">
 						<ul class="side-nav">
 							<li class="is-active"><span>Home</span></li>
+							<li><span>About</span></li> <!-- New navigation item -->
 							<li><span>Projects</span></li>
-							<li><span>About</span></li>
+							<li><span>Extra</span></li>
 							<li><span>Contact</span></li>
 							<li><span>Hire Me</span></li>
 						</ul>
@@ -123,6 +148,77 @@
 								</div>
 							</div>
 						</li>
+
+						<li class="l-section section">
+							<div class="intro">
+
+								<h2>Education & Professional Experience</h2>
+								<h3>Education</h3>
+								<ul>
+									<!-- <li>B.Tech in Information Technology from JNTUH with a CGPA of 8.27/10.0</li> -->
+									<li>
+										University of North Carolina at Charlotte Charlotte, North Carolina
+										<br> M.S. in Computer Science <br>GPA: 3.9/4 <br>Aug 2022 - May 2024
+									</li>
+									<li>
+										Jawaharlal Nehru Technological University Hyderabad, India
+										<br>Bachelor of Technology in Computer Science <br> GPA: 8.27/10.0 <br> Aug
+										2018 - July
+										2022
+									</li>
+								</ul>
+								<h3>Professional Experience</h3>
+								<ul>
+									<li>Web Development Intern at Cognizant Technology Solutions (Feb 2022 - Jun
+										2022)
+										<ul>
+											<li>
+												Completed 400-hour intensive Front-end web development training
+												through Cognizant Early Engagement
+												program, gaining expertise in MERN stack (MongoDB, Express, React,
+												Node.js) by developing dynamic web
+												applications with reusable React UI components optimized for
+												performance and responsiveness.
+											</li>
+											<!-- <li>Designed and implemented 3 RESTful APIs using Node.js following
+												Agile methodologies, ensuring seamless data
+												communication for an e-commerce platform Achieved 95% code coverage
+												through Test-Driven Development (TDD).</li> -->
+											<li>Collaborated with cross-functional teams of developers to identify
+												and resolve software defects, employing debugging
+												techniques and writing unit tests, resulting in 15% reduction in
+												overall bug count and enhanced application stability.</li>
+										</ul>
+									</li>
+									<li>Front-End developer at Alltronics Technologies Pvt. Ltd (Apr 2021 -
+										Dec
+										2021)
+										<ul>
+											<li>Developed and customized WordPress websites for multiple clients by
+												creating custom themes and modifying
+												existing themes for better responsiveness.</li>
+											<!-- <li>Collaborated with clients to gather requirements and provide
+												technical
+												consultation, translating business needs into
+												functional website features and UI/UX elements that enhanced client
+												satisfaction and user engagement.</li> -->
+											<!-- <li>Troubleshot and resolved WordPress site issues, including plugin
+												conflicts, broken links, and CSS/JavaScript
+												errors, ensuring stable performance, security, and minimal downtime
+												through regular site maintenance and updates.</li> -->
+											<li>Implemented SEO best practices and optimized website content for
+												better
+												search engine rankings, resulting in a
+												15% increase in organic traffic.</li>
+										</ul>
+									</li>
+								</ul>
+
+
+
+							</div>
+						</li>
+
 						<li class="l-section section">
 							<div class="work">
 								<h2>My Projects</h2>
@@ -195,7 +291,7 @@
 							<div class="about">
 								<div class="about--banner">
 									<h2>
-										I am<br />more than<br />just a<br />Software developer.
+										I am<br />more than<br />just a<br />Web developer.
 									</h2>
 									<a target="_blank" href="https://www.linkedin.com/in/anirudhcheruvu/">More
 										<span>
@@ -219,9 +315,6 @@
 									<a href="#0">
 										<h3>Guitarist</h3>
 									</a>
-									<!-- <a href="#0">
-										<h3>Mentor.</h3>
-									</a> -->
 								</div>
 							</div>
 						</li>
@@ -232,15 +325,9 @@
 										<div class="modal--information">
 											<p>Charlotte, North Carolina U.S.A</p>
 											<a href="mailto:ouremail@gmail.com">anirudhcheruvu2014@gmail.com</a>
-											<a href="tel:+148126287560">+1 667-379-9852 | +91 7032357606</a>
+											<a href="tel:+148126287560">+1-(667)-379-9852</a>
 										</div>
 										<ul class="modal--options">
-											<!-- <li>
-												<a target="_blank" href="https://twitter.com/"><img
-														src="./assets/img/twitter.png" alt="Twitter logo"
-														style="height: 10px" />
-													Twitter</a>
-											</li> -->
 											<li>
 												<a target="_blank" href="https://github.com/Anirudhcheruvu"><img
 														src="./assets/img/github.png" alt="Github logo"
@@ -281,21 +368,6 @@
 												</svg>
 												Projects
 											</label>
-											<!-- <input id="opt-2" onclick="modal_research_publication_patents()"
-												type="checkbox" value="graphic design" /> -->
-											<!-- <label for="opt-2">
-												<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
-													xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-													viewBox="0 0 150 111" style="enable-background: new 0 0 150 111"
-													xml:space="preserve">
-													<g
-														transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
-														<path
-															d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z" />
-													</g>
-												</svg>
-												Publication
-											</label> -->
 											<input id="opt-3" onclick="modal_coding()" type="checkbox"
 												value="motion design" />
 											<label for="opt-3">
@@ -360,54 +432,39 @@
 											</label>
 										</span>
 									</div>
-									<!-- <div class="work-request--information">
-											<div class="information-name">
-												<input
-													id="name"
-													type="text"
-													spellcheck="false"
-												/>
-												<label for="name">Name</label>
-											</div>
-											<div class="information-email">
-												<input
-													id="email"
-													type="email"
-													spellcheck="false"
-												/>
-												<label for="email">Email</label>
-											</div>
-										</div> -->
 									<img src="./assets/img/coffee.png" height="100px" alt="Coffe Logo" />
 									<br />
 									<p>Let's have coffee Together</p>
 									<a href="https://calendly.com/anirudhcheruvu" rel="noopener noreferrer"
 										target="_blank" style="text-decoration: none">
 										<input style="
-													color: white;
-													padding: 10px;
-													padding-left: 30px;
-													padding-right: 30px;
-													font-size: large;
-													border: 2px solid blue;
-													box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
-														0 10px 10px rgba(0, 0, 0, 0.22);
-													background-color: blue;
-												" type="Button" value="When?" />
+                                                    color: white;
+                                                    padding: 10px;
+                                                    padding-left: 30px;
+                                                    padding-right: 30px;
+                                                    font-size: large;
+                                                    border: 2px solid blue;
+                                                    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+                                                        0 10px 10px rgba(0, 0, 0, 0.22);
+                                                    background-color: blue;
+                                                " type="Button" value="When?" />
 									</a>
 								</form>
 							</div>
 						</li>
+
 					</ul>
 				</div>
 			</div>
 		</div>
 		<ul class="outer-nav">
 			<li class="is-active">Home</li>
-			<li>Projects</li>
 			<li>About</li>
+			<li>Projects</li>
+			<li>Extra</li>
 			<li>Contact</li>
 			<li>Hire Me</li>
+			<!-- New navigation item -->
 		</ul>
 	</div>
 	<a href="./assets/Final_Resume_anirudh.pdf" target="_blank" rel="noopener noreferrer">
@@ -437,29 +494,6 @@
 				confirmButtonText: 'Great!',
 				confirmButtonAriaLabel: 'Thumbs up, great!',
 			});
-			// console.log("MODAL PROJECT");
-		}
-		function modal_research_publication_patents() {
-			setTimeout(() => {
-				document.getElementById('opt-2').checked = false;
-			}, 350);
-			Swal.fire({
-				title: '<strong>My Research Publication</strong>',
-				width: 900,
-				html:
-					`<small>All papers have been provided with hyperlink.</small>` +
-					`<a href="https://journals.sagepub.com/doi/10.1177/14604582211052848" target="_blank" style="text-decoration: none; color:white;"><p>🔹 The Smart Pill Sticker: Introducing a Smart Pill Management system based on Touch-point Technology</p></a>` +
-					`<a href="https://link.springer.com/chapter/10.1007/978-3-031-05528-7_11" target="_blank" style="text-decoration: none; color:white;"><p>🔹 A Brief Insight into the Applications of IoT and Cloud Computing</p></a>` +
-					`<a href="https://link.springer.com/chapter/10.1007/978-981-16-9158-4_4" target="_blank" style="text-decoration: none; color:white;"><p>🔹 A Study of Gene Characteristics and Their Applications using Deep Learning</p></a>` +
-					`<a href="https://link.springer.com/chapter/10.1007/978-981-16-7182-1_11" target="_blank" style="text-decoration: none; color:white;"><p>🔹 A Blockchain-Based Document Verification System for Employers</p></a>` +
-					`<a href="https://link.springer.com/chapter/10.1007/978-981-16-6460-1_8" target="_blank" style="text-decoration: none; color:white;"><p>🔹 A Novel Survey On Ubiquitous Computing</p></a>` +
-					`<a href="http://sersc.org/journals/index.php/IJAST/article/view/30448" target="_blank" style="text-decoration: none; color:white;"><p>🔹 Study for the Best Provisional Storage Technology</p></a>`,
-				showCloseButton: true,
-				focusConfirm: false,
-				confirmButtonText: 'Great!',
-				confirmButtonAriaLabel: 'Thumbs up, great!',
-			});
-			// console.log("MODAL RESEARCH");
 		}
 		function modal_coding() {
 			setTimeout(() => {
@@ -478,7 +512,6 @@
 				confirmButtonText: 'Great!',
 				confirmButtonAriaLabel: 'Thumbs up, great!',
 			});
-			// console.log("MODAL CODING");
 		}
 		function modal_academics_and_achievements(params) {
 			setTimeout(() => {
@@ -500,7 +533,6 @@
 				confirmButtonText: 'Great!',
 				confirmButtonAriaLabel: 'Thumbs up, great!',
 			});
-			// console.log("MODAL ACADEMICS");
 		}
 		function modal_work_ex(params) {
 			setTimeout(() => {
@@ -522,7 +554,6 @@
 				confirmButtonText: 'Great!',
 				confirmButtonAriaLabel: 'Thumbs up, great!',
 			});
-			// console.log("MODAL WORK EX");
 		}
 		function modal_extra_curricular(params) {
 			setTimeout(() => {
@@ -543,7 +574,6 @@
 				confirmButtonText: 'Great!',
 				confirmButtonAriaLabel: 'Thumbs up, great!',
 			});
-			// console.log("MODAL EXTRA CURRICULAR");
 		}
 	</script>
 	<script>
